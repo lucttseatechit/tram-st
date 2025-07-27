@@ -145,7 +145,7 @@
         },
         mounted() {
           //lấy data từ tram.json
-          fetch("/tram/tram.json", { cache: "no-store" })
+          fetch("tram/tram.json", { cache: "no-store" })
             .then((response) => response.json())
             .then((data) => {
               this.items = data.map((item, index) => ({

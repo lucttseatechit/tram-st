@@ -3,41 +3,41 @@
         "name": "tản nhiệt",
         "quantity": 9,
         "imgNG": [
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg"
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN01_Script_1.jpg"
         ],
         "imgOK": [
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg"
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_1.jpg"
         ]
     },
     {
         "name": "bộ nguồn",
         "quantity": 5,
         "imgNG": [
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
-            "/tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg"
+            "tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg",
+            "tram/imgNG/061917_58271_N9NCO27Y001AN02_Script_1.jpg"
         ],
         "imgOK": [
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
-            "/tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg"
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg",
+            "tram/imgOK/005744_30809_N9SIP28A02A3H01_Script_2.jpg"
         ]
     }
 ]
