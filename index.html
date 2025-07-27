@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách trạm</title>
+    <script src="tailwindcss.js"></script>
+    <script src="vue.js"></script>
+    <style>
+      v-cloak {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" v-cloak>
+      <div
+        class="max-w-3xl m-auto flex justify-center items-center flex-col p-4"
+      >
+        <h1 class="text-2xl font-bold mb-4">Danh sách trạm</h1>
+        <div class="mb-4 w-full">
+          <input
+            type="text"
+            v-model="searchQuery"
+            placeholder="Tìm kiếm trạm..."
+            class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+            @input="searchByIP()"
+          />
+        </div>
+        <table class="min-w-full border-collapse border border-gray-300">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2 text-center">STT</th>
+              <th class="border border-gray-300 px-4 py-2 text-left">
+                IP trạm
+              </th>
+              <th class="border border-gray-300 px-4 py-2 text-pretty">
+                Mô tả
+              </th>
+            </tr>
+          </thead>
+          <tbody v-if="displayedItems.length > 0">
+            <tr
+              v-for="(item, index) in displayedItems"
+              :key="item.id"
+              class="hover:bg-gray-50"
+            >
+              <td
+                class="border border-gray-300 px-4 py-2 cursor-pointer text-center"
+              >
+                {{ index + 1 + (currentPage - 1) * size }}
+              </td>
+              <td
+                class="border border-gray-300 px-4 py-2 text-[blue] cursor-pointer"
+                @click="goToDetail(item)"
+                :title="item.ip"
+              >
+                {{ item.ip }}
+              </td>
+              <td class="border border-gray-300 px-4 py-2 cursor-pointer">
+                {{ item.description }}
+              </td>
+            </tr>
+          </tbody>
+          <tbody v-else>
+            <tr>
+              <td
+                colspan="3"
+                class="border border-gray-300 px-4 py-2 text-center"
+              >
+                Không có trạm nào phù hợp với tìm kiếm của bạn.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="flex justify-center mt-4 gap-2"
+          v-if="totalPages > 1 && searchQuery === ''"
+        >
+          <button
+            class="px-4 py-2 border rounded hover:bg-gray-100"
+            @click="prevPage"
+            :disabled="currentPage === 1"
+          >
+            Quay lại
+          </button>
+          <span class="px-4 py-2"
+            >Trang {{ currentPage }} của {{ totalPages }}</span
+          >
+          <button
+            class="px-4 py-2 border rounded hover:bg-gray-100"
+            @click="nextPage"
+            :disabled="currentPage === totalPages"
+          >
+            Tiêp theo
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      const app = Vue.createApp({
+        data() {
+          return {
+            items: [],
+            currentPage: 1,
+            totalPages: 1,
+            size: 1,
+            displayedItems: [],
+            searchQuery: "",
+          };
+        },
+        methods: {
+          prevPage() {
+            if (this.currentPage > 1) {
+              this.currentPage--;
+            }
+          },
+          nextPage() {
+            if (this.currentPage < this.totalPages) {
+              this.currentPage++;
+            }
+          },
+          updateDisplayedItems() {
+            const start = (this.currentPage - 1) * this.size;
+            const end = start + this.size;
+            this.displayedItems = this.items.slice(start, end);
+          },
+          searchByIP() {
+            if (this.searchQuery) {
+              this.displayedItems = this.items.filter((item) =>
+                item.ip.includes(this.searchQuery)
+              );
+            } else {
+              this.updateDisplayedItems();
+            }
+          },
+          goToDetail(item) {
+            window.location.href = `/detail.html?id=${item.ip}`;
+          },
+        },
+        watch: {
+          currentPage() {
+            this.updateDisplayedItems();
+          },
+        },
+        mounted() {
+          //lấy data từ tram.json
+          fetch("/tram/tram.json", { cache: "no-store" })
+            .then((response) => response.json())
+            .then((data) => {
+              this.items = data.map((item, index) => ({
+                id: index + 1,
+                description: item.description,
+                ip: item.ip,
+              }));
+              this.totalPages = Math.ceil(this.items.length / this.size);
+              this.updateDisplayedItems();
+            });
+        },
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>
