@@ -1,0 +1,10 @@
+[
+    {
+        "ip": "10.163.101.52",
+        "name":"Trạm Check Mylar",
+        "description":"Check tản nhiệt",
+        "quantity": 7,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    }
+]
