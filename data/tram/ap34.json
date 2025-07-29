@@ -6,5 +6,93 @@
         "quantity": 7,
         "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
         "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+     {
+        "ip": "10.163.101.11",
+        "name":"Trạm Check Thermal Pad 1",
+        "description":"Check tản nhiệt",
+        "quantity": 7,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+     {
+        "ip": "10.163.101.11",
+        "name":"Trạm Check Thermal Pad 1",
+        "description":"Check Cover",
+        "quantity": 5,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+     {
+        "ip": "10.163.101.12",
+        "name":"Trạm Check Thermal Pad 2",
+        "description":"Check tản nhiệt",
+        "quantity": 5,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+     {
+        "ip": "10.163.101.12",
+        "name":"Trạm Check Thermal Pad 2",
+        "description":"Check xốp",
+        "quantity": 1,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+     {
+        "ip": "10.163.101.12",
+        "name":"Trạm Check Thermal Pad 2",
+        "description":"Check tản nhiệt",
+        "quantity": 4,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+     {
+        "ip": "10.163.101.33",
+        "name":"Trạm Console Port",
+        "description":"Check Tem",
+        "quantity": 2,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+    {
+        "ip": "10.163.101.33",
+        "name":"Trạm Console Port",
+        "description":"Check Ốc",
+        "quantity": 1,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+    {
+        "ip": "10.163.101.33",
+        "name":"Trạm Console Port",
+        "description":"Check cổng Port",
+        "quantity": 1,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+    {
+        "ip": "10.163.101.23",
+        "name":"Trạm Combine",
+        "description":"Check Tản nhiệt",
+        "quantity": 9,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+    {
+        "ip": "10.163.101.23",
+        "name":"Trạm Combine",
+        "description":"Check Xốp",
+        "quantity": 8,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
+    },
+    {
+        "ip": "10.163.101.23",
+        "name":"Trạm Combine",
+        "description":"Check ốc",
+        "quantity": 4,
+        "imgNG":["img/imgNG/080938_82478_N88JO11J002HH01_Script_1.jpg"],
+        "imgOK":["img/imgOK/080938_82478_N88JO11J002HH01_Script_1005656_72052_N88JP28A035RH01_Script_1.jpg"]
     }
 ]
